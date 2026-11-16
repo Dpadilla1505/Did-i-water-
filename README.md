@@ -11,7 +11,7 @@ i start with a photon 2, breadboard and the basic normal of wire colors ( green,
 air quality sensor, bme280, o-led display, relay and 5v water pump.
 
 
-i had to be sure all my installed libraries are installed and included into the code.
+i had to be sure all my installed libraries are installed and included into the code. not all libraries need to be installed some have sub Libraries within you will just #include not install
 #include "Adafruit_SSD1306.h" -- install and include
 #include "Adafruit_GFX.h" -- install and include
 #include "Adafruit_BME280.h" -- install and include
@@ -19,7 +19,7 @@ i had to be sure all my installed libraries are installed and included into the 
 #include "Air_Quality_Sensor.h" -- install and include
 
 
-sensor name and the pins they are using
+sensor name and the pins they are using to the photon 2
 AIRQUALPIN = A5;
  SOILSENSEPIN = A2;
  RELAYPIN = D16;
@@ -27,5 +27,6 @@ AIRQUALPIN = A5;
  BME_ADDRESS = 0x76;
  OLED_ADDRESS = 0x3C;
 
-
+it took me roughly 8-10 hours designing, measuring, printing time to have all my 3D features printed and attached.
+it took about another 2-3.5 hours to run wire, map out the pins to each sensor without compiling so much wire into one little area.
 i am beginner coder, and this is my second total project. 
