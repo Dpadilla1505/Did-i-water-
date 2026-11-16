@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
-
+credentials.h
+Credentials.h
 # Compiled Object files
 *.slo
 *.lo
